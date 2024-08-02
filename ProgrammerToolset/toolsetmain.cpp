@@ -2,13 +2,13 @@
 #include "./ui_toolsetmain.h"
 #include    <QFileDialog>
 #include    <QDateTime>
+#include "movie_player.h"
 
 ToolsetMain::ToolsetMain(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::ToolsetMain)
 {
     ui->setupUi(this);
-
 }
 
 ToolsetMain::~ToolsetMain()
@@ -128,3 +128,18 @@ void ToolsetMain::on_pushButton_2_clicked()
 
 }
 
+
+void ToolsetMain::on_actionMoive_Player_toggled(bool arg1)
+{
+
+}
+
+
+void ToolsetMain::on_actionMoive_Player_triggered(bool checked)
+{
+    movie_player *videoView = new movie_player(this);       //指定主窗口为父容器
+    videoView->setAttribute(Qt::WA_DeleteOnClose);  //关闭时自动删除
+
+
+
+}

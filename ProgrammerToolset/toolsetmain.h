@@ -36,9 +36,13 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_actionMoive_Player_toggled(bool arg1);
+
+    void on_actionMoive_Player_triggered(bool checked);
+
 private:
     Ui::ToolsetMain *ui;
-
+    QWidget *videoView;
 
 
 };

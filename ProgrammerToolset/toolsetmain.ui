@@ -18,7 +18,7 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,1">
       <property name="topMargin">
-       <number>5</number>
+       <number>2</number>
       </property>
       <item>
        <widget class="QGraphicsView" name="graphicsView"/>
@@ -98,6 +98,7 @@
     </property>
     <addaction name="actionOpen"/>
     <addaction name="actionImage2D"/>
+    <addaction name="actionMoive_Player"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuModule"/>
@@ -134,6 +135,11 @@
    </property>
    <property name="menuRole">
     <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionMoive_Player">
+   <property name="text">
+    <string>Moive Player</string>
    </property>
   </action>
  </widget>
