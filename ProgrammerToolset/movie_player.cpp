@@ -50,7 +50,7 @@ void movie_player::on_pushButton_play_clicked()
     durationTime=QString::asprintf("%d:%d",mins,secs);
 
    // qreal playbackRate = speed / 100.0;
-    player->setPlaybackRate(1.5);
+   // player->setPlaybackRate(1.5);
 
 
     player->play();

@@ -27,6 +27,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         mymainwindow.h mymainwindow.cpp mymainwindow.ui
         tmyvideowidget.cpp tmyvideowidget.h
         pclview.h pclview.cpp pclview.ui
+        mindmap.h mindmap.cpp mindmap.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ProgrammerToolset APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

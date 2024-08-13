@@ -22,6 +22,8 @@ private slots:
 
     void on_pushButton_play_clicked();
 
+    void on_actionPCL_triggered();
+
 private:
     Ui::MyMainWindow *ui;
 };
